@@ -1,6 +1,31 @@
-# README
+# Skeleton
+
+Creating PSR-4 compliant PHP package or library with Composer the easy way. This package provides you with
+most of the files and common folder structure that are used for creating PSR-4 compliant, modern PHP
+package/library.
+
+There is no recommended or standard folder and files structure for PHP packages but there are good practices.
+This repository provides initial skeleton for your PHP libraries and packages.
+
+Inspired by [phpleague/skeleton](https://github.com/thephpleague/skeleton) and [php.skeleton](https://github.com/koriym/PHP.Skeleton).
 
 ## Installation
+
+```bash
+$ composer create-project peterkokot/php-skeleton ./project 'dev-master'
+```
+
+## Usage
+
+```php
+<?php
+include vendor
+use PeterKokot\Skeleton;
+
+$skeleton = new Skeleton();
+```
+
+Read also the [documentation](doc/index.md).
 
 ## License
 
