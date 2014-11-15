@@ -1,5 +1,7 @@
 # Skeleton
 
+[![Build Status](https://secure.travis-ci.org/peterkokot/php-skeleton.png?branch=master)](http://travis-ci.org/peterkokot/php-skeleton)
+
 Creating PSR-4 compliant PHP package or library with Composer the easy way. This package provides you with
 most of the files and common folder structure that are used for creating PSR-4 compliant, modern PHP
 package/library.
