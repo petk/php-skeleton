@@ -31,6 +31,6 @@ class Skeleton
 
     public function negate()
     {
-        return new Skeleton(-1 * $this->amountSkeleton);
+        return new Skeleton(-1 * $this->amount);
     }
 }

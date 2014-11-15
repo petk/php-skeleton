@@ -14,5 +14,15 @@
             "PeterKokot\\Skeleton\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-update-cmd": "PeterKokot\\Installer::postUpdate",
+        "post-package-install": [
+            "PeterKokot\\Installer::postPackageInstall"
+        ],
+        "post-install-cmd": [
+            "PeterKokot\\Installer::warmCache",
+            "phpunit"
+        ]
+    }
 }
