@@ -11,6 +11,8 @@ This repository provides initial skeleton for your PHP libraries and packages.
 
 Inspired by [phpleague/skeleton](https://github.com/thephpleague/skeleton) and [php.skeleton](https://github.com/koriym/PHP.Skeleton).
 
+php-skeleton uses [Semantic Versioning](http://semver.org)
+
 ## Installation
 
 ```bash
