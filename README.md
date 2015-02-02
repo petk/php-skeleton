@@ -29,7 +29,7 @@ use PeterKokot\Skeleton;
 $skeleton = new Skeleton();
 ```
 
-Read also the [documentation](doc/index.md).
+Read also the [documentation](doc/index.md) for more information how to use php-skeleton.
 
 ## License
 
