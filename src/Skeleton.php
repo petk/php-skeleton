@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PK\Skeleton;
+namespace Petk\Skeleton;
 
 /**
  * Class Skeleton

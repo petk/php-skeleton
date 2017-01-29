@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace PeterKokot\Skeleton;
+namespace Petk\Skeleton;
 
-use PeterKokot\Skeleton\Skeleton;
+use Petk\Skeleton\Skeleton;
 
 class SkeletonTest extends \PHPUnit_Framework_TestCase
 {

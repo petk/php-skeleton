@@ -30,7 +30,7 @@ Our PHP package will assume and provide you the following directory structure:
 With Composer creating a new PHP package is as simple as:
 
 ```bash
-$ composer create-project peterkokot/php-skeleton ./new-php-package 'dev-master'
+$ composer create-project petk/php-skeleton ./new-php-package 'dev-master'
 ```
 
 

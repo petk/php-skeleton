@@ -1,5 +1,5 @@
 {
-    "name": "peterkokot/php-skeleton",
+    "name": "petk/php-skeleton",
     "description": "Skeleton for PHP libraries, packages and components",
     "license": "MIT",
     "authors": [
@@ -11,17 +11,17 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "PeterKokot\\Skeleton\\": "src/"
+            "Petk\\Skeleton\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "scripts": {
-        "post-update-cmd": "PeterKokot\\Installer::postUpdate",
+        "post-update-cmd": "Petk\\Installer::postUpdate",
         "post-package-install": [
-            "PeterKokot\\Installer::postPackageInstall"
+            "Petk\\Installer::postPackageInstall"
         ],
         "post-install-cmd": [
-            "PeterKokot\\Installer::warmCache",
+            "Petk\\Installer::warmCache",
             "phpunit"
         ]
     }
