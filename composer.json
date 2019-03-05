@@ -8,7 +8,12 @@
             "email": "peterkokot@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
     "autoload": {
         "psr-4": {
             "Petk\\Skeleton\\": "src/"

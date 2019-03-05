@@ -12,8 +12,9 @@
 namespace Petk\Skeleton;
 
 use Petk\Skeleton\Skeleton;
+use PHPUnit\Framework\TestCase;
 
-class SkeletonTest extends \PHPUnit_Framework_TestCase
+class SkeletonTest extends TestCase
 {
     public function testCanBeNegated()
     {
