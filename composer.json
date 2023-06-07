@@ -31,17 +31,18 @@
     },
     "minimum-stability": "dev",
     "scripts": {
-        "post-update-cmd": "Petk\\Installer::postUpdate",
+        "post-update-cmd": "Petk\\Skeleton\\Installer::postUpdate",
+        "post-create-project-cmd": [
+            "Petk\\Skeleton\\Installer::postCreateProject"
+        ],
         "post-package-install": [
-            "Petk\\Installer::postPackageInstall"
+
         ],
         "post-install-cmd": [
-            "Petk\\Installer::warmCache",
-            "phpunit"
+            "Petk\\Skeleton\\Installer::warmCache"
         ]
     },
     "config": {
         "sort-packages": true
-    },
-    "bin": "bin/installer.php"
+    }
 }

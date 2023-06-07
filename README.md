@@ -1,4 +1,4 @@
-# Skeleton
+# PHP skeleton
 
 ![Test workflow](https://github.com/petk/php-skeleton/actions/workflows/tests.yaml/badge.svg)
 
@@ -24,14 +24,19 @@ $ composer create-project petk/php-skeleton ./project 'dev-master'
 
 ## Usage
 
+After creating the skeleton project directory, you can start customizing it.
+
+For example, create `index.php` and so on:
+
 ```php
 <?php
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Petk\Skeleton;
+use YourNamespace\Application;
 
-$skeleton = new Skeleton();
+$application = new Application();
+// ...
 ```
 
 Read also the [documentation](docs/index.md) for more information how to use

@@ -1,21 +1,13 @@
 <?php
 
-/*
- * This file is part of the php-skeleton package.
- *
- * (c) Peter Kokot <peterkokot@gmail.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
+declare(strict_types=1);
 
-namespace Petk\Installer;
+namespace Petk\Skeleton;
 
 use Composer\Script\Event;
 
 /**
- * Installer
- *
+ * Installer.
  */
 class Installer
 {
@@ -25,7 +17,7 @@ class Installer
         // do stuff
     }
 
-    public static function postPackageInstall(Event $event)
+    public static function postCreateProject(Event $event)
     {
         $installedPackage = $event->getOperation()->getPackage();
         // do stuff
